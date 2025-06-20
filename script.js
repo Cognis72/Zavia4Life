@@ -108,6 +108,11 @@ function initializeFormValidation() {
     const subjectSelect = document.getElementById('subject');
     const messageTextarea = document.getElementById('message');
     
+    // Check if form elements exist before adding listeners
+    if (!form || !nameInput || !emailInput || !subjectSelect || !messageTextarea) {
+        return; // Exit if form elements don't exist
+    }
+    
     // Real-time validation
     nameInput.addEventListener('blur', () => validateName());
     emailInput.addEventListener('blur', () => validateEmail());
@@ -269,6 +274,11 @@ function initializeParallaxEffect() {
 function initializeMobileMenu() {
     const hamburger = document.getElementById('hamburger');
     const navMenu = document.getElementById('nav-menu');
+    
+    // Check if elements exist before adding listeners
+    if (!hamburger || !navMenu) {
+        return;
+    }
     
     hamburger.addEventListener('click', () => {
         hamburger.classList.toggle('active');

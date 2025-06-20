@@ -55,8 +55,8 @@ body {
 .main-logo {
     font-family: 'Press Start 2P', cursive;
     font-size: 3rem;
-    color: #ff0000;
-    text-shadow: 0 0 20px #ff0000, 0 0 40px #ff0000;
+    color: #0080ff;
+    text-shadow: 0 0 20px #0080ff, 0 0 40px #0080ff;
     animation: pulse 2s infinite;
 }
 
@@ -67,13 +67,13 @@ body {
     transform: translate(-50%, -50%);
     width: 100%;
     height: 100%;
-    background: radial-gradient(circle, rgba(255, 0, 0, 0.3) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(0, 128, 255, 0.3) 0%, transparent 70%);
     animation: glow 3s ease-in-out infinite alternate;
 }
 
 .loading-text {
     font-size: 1rem;
-    color: #00ff00;
+    color: #000000;
     letter-spacing: 3px;
     animation: blink 1.5s infinite;
 }
@@ -122,8 +122,8 @@ body {
 .nav-logo {
     font-family: 'Press Start 2P', cursive;
     font-size: 1.5rem;
-    color: #ff0000;
-    text-shadow: 0 0 10px #ff0000;
+    color: #0080ff;
+    text-shadow: 0 0 10px #0080ff;
 }
 
 .nav-menu {
@@ -141,8 +141,8 @@ body {
 }
 
 .nav-link:hover {
-    color: #00ff00;
-    text-shadow: 0 0 10px #00ff00;
+    color: #000000;
+    text-shadow: 0 0 10px #000000;
 }
 
 .nav-link::after {
@@ -152,7 +152,7 @@ body {
     left: 0;
     width: 0;
     height: 2px;
-    background: linear-gradient(90deg, #ff0000, #00ff00);
+    background: linear-gradient(90deg, #0080ff, #000000);
     transition: width 0.3s ease;
 }
 
@@ -213,7 +213,7 @@ body {
     right: 10%;
     width: 100px;
     height: 100px;
-    background: radial-gradient(circle, rgba(0, 255, 0, 0.8) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(0, 128, 255, 0.8) 0%, transparent 70%);
     border-radius: 50%;
     animation: flicker 3s infinite;
 }
@@ -241,22 +241,22 @@ body {
 .hero-title {
     font-family: 'Press Start 2P', cursive;
     font-size: 4rem;
-    color: #ff0000;
-    text-shadow: 0 0 30px #ff0000, 0 0 60px #ff0000;
+    color: #0080ff;
+    text-shadow: 0 0 30px #0080ff, 0 0 60px #0080ff;
     margin-bottom: 20px;
     animation: heroGlow 3s ease-in-out infinite alternate;
 }
 
 .hero-subtitle {
     font-size: 1.5rem;
-    color: #00ff00;
+    color: #000000;
     letter-spacing: 5px;
-    text-shadow: 0 0 20px #00ff00;
+    text-shadow: 0 0 20px #000000;
 }
 
 @keyframes heroGlow {
-    0% { text-shadow: 0 0 30px #ff0000, 0 0 60px #ff0000; }
-    100% { text-shadow: 0 0 40px #ff0000, 0 0 80px #ff0000, 0 0 120px #ff0000; }
+    0% { text-shadow: 0 0 30px #0080ff, 0 0 60px #0080ff; }
+    100% { text-shadow: 0 0 40px #0080ff, 0 0 80px #0080ff, 0 0 120px #0080ff; }
 }
 
 .hero-buttons {
@@ -282,28 +282,28 @@ body {
 }
 
 .neon-btn.primary {
-    color: #ff0000;
-    border: 2px solid #ff0000;
-    box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+    color: #0080ff;
+    border: 2px solid #0080ff;
+    box-shadow: 0 0 20px rgba(0, 128, 255, 0.5);
 }
 
 .neon-btn.primary:hover {
-    background: #ff0000;
+    background: #0080ff;
     color: #000000;
-    box-shadow: 0 0 30px #ff0000, 0 0 60px #ff0000;
+    box-shadow: 0 0 30px #0080ff, 0 0 60px #0080ff;
     transform: scale(1.05);
 }
 
 .neon-btn.secondary {
-    color: #00ff00;
-    border: 2px solid #00ff00;
-    box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+    color: #000000;
+    border: 2px solid #000000;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 .neon-btn.secondary:hover {
-    background: #00ff00;
-    color: #000000;
-    box-shadow: 0 0 30px #00ff00, 0 0 60px #00ff00;
+    background: #000000;
+    color: #0080ff;
+    box-shadow: 0 0 30px #000000, 0 0 60px #000000;
     transform: scale(1.05);
 }
 
@@ -322,8 +322,8 @@ body {
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 80px;
-    color: #ff0000;
-    text-shadow: 0 0 20px #ff0000;
+    color: #0080ff;
+    text-shadow: 0 0 20px #0080ff;
     position: relative;
 }
 
@@ -335,7 +335,7 @@ body {
     transform: translateX(-50%);
     width: 100px;
     height: 3px;
-    background: linear-gradient(90deg, #ff0000, #00ff00);
+    background: linear-gradient(90deg, #0080ff, #000000);
 }
 
 /* About Section */
@@ -347,10 +347,10 @@ body {
 }
 
 .about-text h3 {
-    color: #00ff00;
+    color: #000000;
     margin-bottom: 20px;
     font-size: 1.5rem;
-    text-shadow: 0 0 10px #00ff00;
+    text-shadow: 0 0 10px #000000;
 }
 
 .about-text p {
@@ -445,17 +445,17 @@ body {
 }
 
 .member-info h3 {
-    color: #ff0000;
+    color: #0080ff;
     font-size: 1.5rem;
     margin-bottom: 10px;
-    text-shadow: 0 0 10px #ff0000;
+    text-shadow: 0 0 10px #0080ff;
 }
 
 .member-role {
-    color: #00ff00;
+    color: #000000;
     font-size: 1rem;
     margin-bottom: 15px;
-    text-shadow: 0 0 10px #00ff00;
+    text-shadow: 0 0 10px #000000;
 }
 
 .member-bio {
@@ -480,20 +480,20 @@ body {
     background: rgba(255, 255, 255, 0.05);
     border-radius: 15px;
     padding: 30px;
-    border: 1px solid rgba(255, 0, 0, 0.2);
+    border: 1px solid rgba(0, 128, 255, 0.2);
     transition: all 0.3s ease;
 }
 
 .media-item:hover {
-    border-color: #ff0000;
-    box-shadow: 0 0 30px rgba(255, 0, 0, 0.3);
+    border-color: #0080ff;
+    box-shadow: 0 0 30px rgba(0, 128, 255, 0.3);
 }
 
 .media-item h3 {
-    color: #00ff00;
+    color: #000000;
     margin-bottom: 20px;
     text-align: center;
-    text-shadow: 0 0 10px #00ff00;
+    text-shadow: 0 0 10px #000000;
 }
 
 .video-container {
@@ -525,10 +525,10 @@ body {
 }
 
 .soundcloud-section h3 {
-    color: #ff0000;
+    color: #0080ff;
     margin-bottom: 30px;
     font-size: 1.8rem;
-    text-shadow: 0 0 10px #ff0000;
+    text-shadow: 0 0 10px #0080ff;
 }
 
 .soundcloud-embed {
@@ -560,7 +560,7 @@ body {
     top: 0;
     bottom: 0;
     width: 3px;
-    background: linear-gradient(to bottom, #ff0000, #00ff00);
+    background: linear-gradient(to bottom, #0080ff, #000000);
     transform: translateX(-50%);
 }
 
@@ -583,7 +583,7 @@ body {
 .date-circle {
     width: 80px;
     height: 80px;
-    background: linear-gradient(45deg, #ff0000, #00ff00);
+    background: linear-gradient(45deg, #0080ff, #000000);
     border-radius: 50%;
     display: flex;
     flex-direction: column;
@@ -612,18 +612,18 @@ body {
     padding: 30px;
     border-radius: 15px;
     margin: 0 30px;
-    border: 1px solid rgba(255, 0, 0, 0.2);
+    border: 1px solid rgba(0, 128, 255, 0.2);
 }
 
 .timeline-content h3 {
-    color: #ff0000;
+    color: #0080ff;
     margin-bottom: 10px;
     font-size: 1.3rem;
-    text-shadow: 0 0 10px #ff0000;
+    text-shadow: 0 0 10px #0080ff;
 }
 
 .event-location {
-    color: #00ff00;
+    color: #000000;
     margin-bottom: 15px;
     font-size: 1rem;
 }
@@ -644,18 +644,18 @@ body {
 }
 
 .event-status.upcoming {
-    background: #ff0000;
-    color: #000000;
+    background: #0080ff;
+    color: #ffffff;
 }
 
 .event-status.recurring {
-    background: #00ff00;
-    color: #000000;
+    background: #000000;
+    color: #0080ff;
 }
 
 .event-status.vip {
-    background: linear-gradient(45deg, #ff0000, #00ff00);
-    color: #000000;
+    background: linear-gradient(45deg, #0080ff, #000000);
+    color: #ffffff;
 }
 
 .event-status.community {
@@ -683,8 +683,8 @@ body {
 }
 
 .merch-item:hover {
-    border-color: #00ff00;
-    box-shadow: 0 0 30px rgba(0, 255, 0, 0.3);
+    border-color: #0080ff;
+    box-shadow: 0 0 30px rgba(0, 128, 255, 0.3);
     transform: translateY(-10px);
 }
 
@@ -729,8 +729,8 @@ body {
 .merch-btn {
     padding: 10px 20px;
     background: transparent;
-    border: 2px solid #00ff00;
-    color: #00ff00;
+    border: 2px solid #0080ff;
+    color: #0080ff;
     font-family: 'Russo One', sans-serif;
     font-weight: bold;
     cursor: pointer;
@@ -738,9 +738,9 @@ body {
 }
 
 .merch-btn:hover {
-    background: #00ff00;
+    background: #0080ff;
     color: #000000;
-    box-shadow: 0 0 20px #00ff00;
+    box-shadow: 0 0 20px #0080ff;
 }
 
 .merch-info {
@@ -754,11 +754,11 @@ body {
 }
 
 .merch-price {
-    color: #ff0000;
+    color: #0080ff;
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 10px;
-    text-shadow: 0 0 10px #ff0000;
+    text-shadow: 0 0 10px #0080ff;
 }
 
 .merch-description {
@@ -783,10 +783,10 @@ body {
 }
 
 .contact-info h3 {
-    color: #ff0000;
+    color: #0080ff;
     margin-bottom: 20px;
     font-size: 1.8rem;
-    text-shadow: 0 0 10px #ff0000;
+    text-shadow: 0 0 10px #0080ff;
 }
 
 .contact-info p {
@@ -813,9 +813,9 @@ body {
 }
 
 .social-links h4 {
-    color: #00ff00;
+    color: #000000;
     margin-bottom: 20px;
-    text-shadow: 0 0 10px #00ff00;
+    text-shadow: 0 0 10px #000000;
 }
 
 .social-icons {
@@ -837,10 +837,10 @@ body {
 }
 
 .social-link:hover {
-    background: rgba(0, 255, 0, 0.1);
-    border-color: #00ff00;
-    color: #00ff00;
-    box-shadow: 0 0 15px rgba(0, 255, 0, 0.3);
+    background: rgba(0, 128, 255, 0.1);
+    border-color: #0080ff;
+    color: #0080ff;
+    box-shadow: 0 0 15px rgba(0, 128, 255, 0.3);
 }
 
 /* Contact Form */
@@ -848,7 +848,7 @@ body {
     background: rgba(255, 255, 255, 0.05);
     padding: 40px;
     border-radius: 15px;
-    border: 1px solid rgba(255, 0, 0, 0.2);
+    border: 1px solid rgba(0, 128, 255, 0.2);
 }
 
 .form-group {
@@ -874,8 +874,8 @@ body {
 .form-group select:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #00ff00;
-    box-shadow: 0 0 15px rgba(0, 255, 0, 0.3);
+    border-color: #0080ff;
+    box-shadow: 0 0 15px rgba(0, 128, 255, 0.3);
 }
 
 .form-group label {
@@ -897,13 +897,13 @@ body {
     top: -10px;
     left: 10px;
     font-size: 0.8rem;
-    color: #00ff00;
+    color: #0080ff;
     background: #0a0a0a;
     padding: 0 5px;
 }
 
 .error-message {
-    color: #ff0000;
+    color: #0080ff;
     font-size: 0.8rem;
     margin-top: 5px;
     display: none;
@@ -928,17 +928,17 @@ body {
 }
 
 .footer-logo h3 {
-    color: #ff0000;
+    color: #0080ff;
     font-family: 'Press Start 2P', cursive;
     font-size: 1.5rem;
     margin-bottom: 10px;
-    text-shadow: 0 0 10px #ff0000;
+    text-shadow: 0 0 10px #0080ff;
 }
 
 .footer-logo p {
-    color: #00ff00;
+    color: #000000;
     font-size: 0.9rem;
-    text-shadow: 0 0 10px #00ff00;
+    text-shadow: 0 0 10px #000000;
 }
 
 .footer-links {
@@ -954,8 +954,8 @@ body {
 }
 
 .footer-links a:hover {
-    color: #00ff00;
-    text-shadow: 0 0 10px #00ff00;
+    color: #0080ff;
+    text-shadow: 0 0 10px #0080ff;
 }
 
 .footer-bottom {
@@ -1122,10 +1122,10 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(to bottom, #ff0000, #00ff00);
+    background: linear-gradient(to bottom, #0080ff, #000000);
     border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(to bottom, #00ff00, #ff0000);
+    background: linear-gradient(to bottom, #000000, #0080ff);
 }
