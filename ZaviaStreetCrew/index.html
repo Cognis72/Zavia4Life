@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zavia4Life - Loyalty Over Everything</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="logo-animation">
+                <h1 class="main-logo">ZAVIA4LIFE</h1>
+                <div class="neon-glow"></div>
+            </div>
+            <p class="loading-text">LOADING THE STREETS...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Z4L</div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">HOME</a>
+                <a href="#about" class="nav-link">ABOUT</a>
+                <a href="#crew" class="nav-link">CREW</a>
+                <a href="#media" class="nav-link">MEDIA</a>
+                <a href="#events" class="nav-link">EVENTS</a>
+                <a href="#merch" class="nav-link">MERCH</a>
+                <a href="#contact" class="nav-link">CONTACT</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="smoke-effect"></div>
+            <div class="flickering-lights"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-logo">
+                <h1 class="hero-title">ZAVIA4LIFE</h1>
+                <div class="hero-subtitle">LOYALTY OVER EVERYTHING</div>
+            </div>
+            <div class="hero-buttons">
+                <button class="neon-btn primary" onclick="scrollToSection('about')">ENTER THE CREW</button>
+                <button class="neon-btn secondary" onclick="scrollToSection('media')">WATCH US</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">THE STORY</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>FROM THE STREETS TO THE STAGE</h3>
+                    <p>Born in the concrete jungle where survival means loyalty and respect is earned through bars and beats. Zavia4Life isn't just a crew - we're a family forged in the fire of street culture, united by our passion for hip-hop and our unbreakable bond.</p>
+                    
+                    <h3>OUR MISSION</h3>
+                    <p>We represent the real voice of the streets, spitting truth through our lyrics and living by the code that loyalty comes before everything. Every track we drop, every battle we fight, every stage we dominate - it's all about keeping it 100 and staying true to our roots.</p>
+                    
+                    <h3>THE CODE</h3>
+                    <ul class="code-list">
+                        <li>🔥 LOYALTY OVER EVERYTHING</li>
+                        <li>🎤 RESPECT THE MIC</li>
+                        <li>💯 KEEP IT REAL</li>
+                        <li>🏆 NEVER BACK DOWN</li>
+                        <li>🎵 MUSIC IS LIFE</li>
+                    </ul>
+                </div>
+                <div class="about-visual">
+                    <div class="graffiti-wall"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Crew Section -->
+    <section id="crew" class="section crew-section">
+        <div class="container">
+            <h2 class="section-title">THE CREW</h2>
+            <div class="crew-grid">
+                <div class="crew-member" data-member="1">
+                    <div class="member-image">
+                        <img src="https://pixabay.com/get/g2525e622318bff69b32e14e3f39db9e39ae8f6edded955a89b6078cc9038df61cbbf032387c6725e399effa356caac89be5fb1bdcd80931ad118dda23b227f89_1280.jpg" alt="MC Shadow">
+                        <div class="member-overlay">
+                            <div class="member-info">
+                                <h3>MC SHADOW</h3>
+                                <p class="member-role">LEAD RAPPER</p>
+                                <p class="member-bio">The voice of the streets, Shadow's lyrics cut deep with raw truth and unfiltered emotion. Been spitting fire since day one.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="crew-member" data-member="2">
+                    <div class="member-image">
+                        <img src="https://pixabay.com/get/g69c1da93f1ca8e9854a3b323a226ef93e7e255bf693157fca166706fb5cfb008afd063eb8be6cb3408830c82b226e7c7fdb34e4f1cccbb6e0d2fa1cbaad8df7c_1280.jpg" alt="DJ Neon">
+                        <div class="member-overlay">
+                            <div class="member-info">
+                                <h3>DJ NEON</h3>
+                                <p class="member-role">PRODUCER / DJ</p>
+                                <p class="member-bio">Master of the beats, Neon creates the sonic landscapes that define our sound. Every drop is pure fire.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="crew-member" data-member="3">
+                    <div class="member-image">
+                        <img src="https://pixabay.com/get/g93c57d56f41efda4dd26ed16c1190cc2c0677eaf29227be450d6268e902fbd2d366cfec510d77f2fd1a9d69501d944766b4d850b2623a31874c81da3f0afeafd_1280.jpg" alt="Blaze">
+                        <div class="member-overlay">
+                            <div class="member-info">
+                                <h3>BLAZE</h3>
+                                <p class="member-role">HYPE MAN</p>
+                                <p class="member-bio">The energy that ignites every performance. When Blaze steps up, the crowd goes wild. Pure street charisma.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="crew-member" data-member="4">
+                    <div class="member-image">
+                        <img src="https://pixabay.com/get/g7f7020336c977bb9f4976916cb350251bb7fc304e541aa1dee7de9d1075ab0535755466c5265aea88130efd64548d86167deec6b2a3fd0a1bd1fcf0976c77e04_1280.jpg" alt="Viper">
+                        <div class="member-overlay">
+                            <div class="member-info">
+                                <h3>VIPER</h3>
+                                <p class="member-role">LYRICIST</p>
+                                <p class="member-bio">Wordsmith extraordinaire with a venomous flow. Viper's bars hit harder than reality and cut deeper than truth.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="crew-member" data-member="5">
+                    <div class="member-image">
+                        <img src="https://pixabay.com/get/g37f0df82f3abb9f58d28d0db5ee66820f9f5ac9ec4ee1b62a926387c4583b3898626980dcf88cb13ba533dc50279ed0dc64c6cfd2bc0302d25db8f8a9c102fe8_1280.jpg" alt="Phoenix">
+                        <div class="member-overlay">
+                            <div class="member-info">
+                                <h3>PHOENIX</h3>
+                                <p class="member-role">VOCALIST</p>
+                                <p class="member-bio">Rising from the ashes with a voice that soars above the noise. Phoenix brings the melody to our madness.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="crew-member" data-member="6">
+                    <div class="member-image">
+                        <img src="https://pixabay.com/get/gb3bfcd1e36e1df1e7574dd669a76386e369e860a12836b4d3d5448d0bbe51dd1411628e3dcfc4f8c171db619d3732bc3d0881597f8efa99bc03b893a8cfb990c_1280.jpg" alt="Razorblade">
+                        <div class="member-overlay">
+                            <div class="member-info">
+                                <h3>RAZORBLADE</h3>
+                                <p class="member-role">BATTLE RAPPER</p>
+                                <p class="member-bio">Sharp as steel, cutting through competition with precision bars. In the cypher, Razorblade never loses.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Media Section -->
+    <section id="media" class="section media-section">
+        <div class="container">
+            <h2 class="section-title">MEDIA</h2>
+            <div class="media-grid">
+                <div class="media-item">
+                    <h3>LATEST TRACKS</h3>
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/hqIsc8ooXug" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <p class="media-title">Street Anthem - Official Video</p>
+                </div>
+                
+                <div class="media-item">
+                    <h3>BATTLE HIGHLIGHTS</h3>
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/SW-BU6keEUw" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <p class="media-title">Underground Battle Championship</p>
+                </div>
+                
+                <div class="media-item">
+                    <h3>BEHIND THE SCENES</h3>
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/Y34jC4I1m70" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <p class="media-title">Studio Sessions with Z4L</p>
+                </div>
+            </div>
+            
+            <div class="soundcloud-section">
+                <h3>SOUNDCLOUD TRACKS</h3>
+                <div class="soundcloud-embed">
+                    <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/293&color=ff0000"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="section events-section">
+        <div class="container">
+            <h2 class="section-title">EVENTS</h2>
+            <div class="events-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <div class="date-circle">
+                            <span class="month">JUL</span>
+                            <span class="day">15</span>
+                        </div>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>UNDERGROUND BATTLE ROYALE</h3>
+                        <p class="event-location">📍 Downtown Warehouse District</p>
+                        <p class="event-description">The biggest underground rap battle of the year. 32 MCs, one crown. Z4L will be defending our title.</p>
+                        <div class="event-status upcoming">UPCOMING</div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <div class="date-circle">
+                            <span class="month">AUG</span>
+                            <span class="day">03</span>
+                        </div>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>STREET CYPHER NIGHTS</h3>
+                        <p class="event-location">📍 Central Park Amphitheater</p>
+                        <p class="event-description">Weekly cypher sessions where the community comes together. Bring your bars, bring your crew.</p>
+                        <div class="event-status recurring">WEEKLY</div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <div class="date-circle">
+                            <span class="month">AUG</span>
+                            <span class="day">20</span>
+                        </div>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Z4L ALBUM RELEASE PARTY</h3>
+                        <p class="event-location">📍 Underground Club X</p>
+                        <p class="event-description">Exclusive listening party for our new album "Concrete Dreams". Limited invites only.</p>
+                        <div class="event-status vip">VIP ONLY</div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <div class="date-circle">
+                            <span class="month">SEP</span>
+                            <span class="day">12</span>
+                        </div>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>COMMUNITY OUTREACH</h3>
+                        <p class="event-location">📍 Local Community Center</p>
+                        <p class="event-description">Giving back to the streets that raised us. Workshop for young artists and aspiring rappers.</p>
+                        <div class="event-status community">COMMUNITY</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Merch Section -->
+    <section id="merch" class="section merch-section">
+        <div class="container">
+            <h2 class="section-title">MERCH</h2>
+            <div class="merch-grid">
+                <div class="merch-item">
+                    <div class="merch-image">
+                        <div class="product-placeholder">
+                            <div class="product-icon">👕</div>
+                        </div>
+                        <div class="merch-overlay">
+                            <button class="merch-btn">VIEW DETAILS</button>
+                        </div>
+                    </div>
+                    <div class="merch-info">
+                        <h3>Z4L STREET TEE</h3>
+                        <p class="merch-price">$35.00</p>
+                        <p class="merch-description">Premium street wear with our signature logo</p>
+                    </div>
+                </div>
+
+                <div class="merch-item">
+                    <div class="merch-image">
+                        <div class="product-placeholder">
+                            <div class="product-icon">🧢</div>
+                        </div>
+                        <div class="merch-overlay">
+                            <button class="merch-btn">VIEW DETAILS</button>
+                        </div>
+                    </div>
+                    <div class="merch-info">
+                        <h3>SNAPBACK CAP</h3>
+                        <p class="merch-price">$25.00</p>
+                        <p class="merch-description">Classic snapback with embroidered Z4L logo</p>
+                    </div>
+                </div>
+
+                <div class="merch-item">
+                    <div class="merch-image">
+                        <div class="product-placeholder">
+                            <div class="product-icon">👟</div>
+                        </div>
+                        <div class="merch-overlay">
+                            <button class="merch-btn">VIEW DETAILS</button>
+                        </div>
+                    </div>
+                    <div class="merch-info">
+                        <h3>CUSTOM KICKS</h3>
+                        <p class="merch-price">$150.00</p>
+                        <p class="merch-description">Limited edition custom sneakers</p>
+                    </div>
+                </div>
+
+                <div class="merch-item">
+                    <div class="merch-image">
+                        <div class="product-placeholder">
+                            <div class="product-icon">🎧</div>
+                        </div>
+                        <div class="merch-overlay">
+                            <button class="merch-btn">VIEW DETAILS</button>
+                        </div>
+                    </div>
+                    <div class="merch-info">
+                        <h3>STREET HEADPHONES</h3>
+                        <p class="merch-price">$89.00</p>
+                        <p class="merch-description">Premium audio for the streets</p>
+                    </div>
+                </div>
+
+                <div class="merch-item">
+                    <div class="merch-image">
+                        <div class="product-placeholder">
+                            <div class="product-icon">🎤</div>
+                        </div>
+                        <div class="merch-overlay">
+                            <button class="merch-btn">VIEW DETAILS</button>
+                        </div>
+                    </div>
+                    <div class="merch-info">
+                        <h3>BATTLE MIC</h3>
+                        <p class="merch-price">$199.00</p>
+                        <p class="merch-description">Professional battle microphone</p>
+                    </div>
+                </div>
+
+                <div class="merch-item">
+                    <div class="merch-image">
+                        <div class="product-placeholder">
+                            <div class="product-icon">💿</div>
+                        </div>
+                        <div class="merch-overlay">
+                            <button class="merch-btn">VIEW DETAILS</button>
+                        </div>
+                    </div>
+                    <div class="merch-info">
+                        <h3>CONCRETE DREAMS CD</h3>
+                        <p class="merch-price">$15.00</p>
+                        <p class="merch-description">Our latest album on physical CD</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">CONTACT</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>GET IN TOUCH</h3>
+                    <p>Ready to join the movement? Got business to discuss? Hit us up and we'll get back to you faster than a beat drop.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <span>crew@zavia4life.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📱</span>
+                            <span>+1 (555) ZAVIA-4L</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span>The Streets, Urban District</span>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <h4>FOLLOW THE MOVEMENT</h4>
+                        <div class="social-icons">
+                            <a href="#" class="social-link">📱 INSTAGRAM</a>
+                            <a href="#" class="social-link">🎵 SOUNDCLOUD</a>
+                            <a href="#" class="social-link">📺 YOUTUBE</a>
+                            <a href="#" class="social-link">🐦 TWITTER</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">YOUR NAME</label>
+                            <div class="error-message" id="name-error"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">YOUR EMAIL</label>
+                            <div class="error-message" id="email-error"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <select id="subject" name="subject" required>
+                                <option value="">SELECT A REASON</option>
+                                <option value="booking">BOOKING INQUIRY</option>
+                                <option value="collaboration">COLLABORATION</option>
+                                <option value="fan">FAN MESSAGE</option>
+                                <option value="media">MEDIA REQUEST</option>
+                                <option value="other">OTHER</option>
+                            </select>
+                            <label for="subject">SUBJECT</label>
+                            <div class="error-message" id="subject-error"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="message">YOUR MESSAGE</label>
+                            <div class="error-message" id="message-error"></div>
+                        </div>
+
+                        <button type="submit" class="neon-btn primary">SEND MESSAGE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>ZAVIA4LIFE</h3>
+                    <p>LOYALTY OVER EVERYTHING</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">HOME</a>
+                    <a href="#about">ABOUT</a>
+                    <a href="#crew">CREW</a>
+                    <a href="#media">MEDIA</a>
+                    <a href="#events">EVENTS</a>
+                    <a href="#merch">MERCH</a>
+                    <a href="#contact">CONTACT</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Zavia4Life. All rights reserved. Keep it real, keep it street.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
