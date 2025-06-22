@@ -422,5 +422,54 @@ function preloadImages() {
     });
 }
 
-// Initialize preloading
-document.addEventListener('DOMContentLoaded', preloadImages);
+// Theme Management
+function initializeThemeToggle() {
+    const themeToggle = document.getElementById('themeToggle');
+    
+    // Check if theme toggle exists
+    if (!themeToggle) {
+        console.warn('Theme toggle button not found');
+        return;
+    }
+    
+    const body = document.body;
+    
+    // Load saved theme or default to dark
+    const savedTheme = localStorage.getItem('theme') || 'dark';
+    setTheme(savedTheme);
+    
+    themeToggle.addEventListener('click', function() {
+        const currentTheme = body.getAttribute('data-theme');
+        const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+        setTheme(newTheme);
+        localStorage.setItem('theme', newTheme);
+    });
+    
+    function setTheme(theme) {
+        if (theme === 'light') {
+            body.setAttribute('data-theme', 'light');
+            if (themeToggle) themeToggle.textContent = '☀️ LIGHT';
+        } else {
+            body.removeAttribute('data-theme');
+            if (themeToggle) themeToggle.textContent = '🌙 DARK';
+        }
+    }
+}
+
+// Initialize all functions when DOM loads
+document.addEventListener('DOMContentLoaded', function() {
+    // Small delay to ensure DOM is fully loaded
+    setTimeout(() => {
+        initializeThemeToggle();
+    }, 100);
+    
+    initializeLoadingScreen();
+    initializeNavigation();
+    initializeSmoothScrolling();
+    initializeFormValidation();
+    initializeCrewHoverEffects();
+    initializeParallaxEffect();
+    initializeMobileMenu();
+    initializeScrollAnimations();
+    preloadImages();
+});
